@@ -5,8 +5,10 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../Gradle/gradle-7.5.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -14,6 +16,11 @@
             <option value="$PROJECT_DIR$/Topics/Array/Declarations" />
             <option value="$PROJECT_DIR$/Topics/Array/Initializing an array of characters" />
             <option value="$PROJECT_DIR$/Topics/Array/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Adding values" />
+            <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Get first and last elements" />
+            <option value="$PROJECT_DIR$/Topics/Arrays as parameters/How to invoke the method" />
+            <option value="$PROJECT_DIR$/Topics/Arrays as parameters/The declaration of the sumAll method" />
+            <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Theory" />
             <option value="$PROJECT_DIR$/Topics/Conditional statement/Check a number is positive" />
             <option value="$PROJECT_DIR$/Topics/Conditional statement/Interval" />
             <option value="$PROJECT_DIR$/Topics/Conditional statement/Theory" />
