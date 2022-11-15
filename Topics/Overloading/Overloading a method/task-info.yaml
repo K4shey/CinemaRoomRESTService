@@ -1,11 +1,11 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: <code>public static long method(long l) { return 1L; }</code>
-- text: <code>public static void method(int i, String s) { }</code>
-- text: <code>public static int method(int i) { return 3; }</code>
-- text: <code>public static void method(String s, int i) { }</code>
-- text: <code> public static void method1(int i) { }</code>
+- text: "<code>public static long method(long l) { return 1L; }</code>"
+- text: "<code>public static void method(int i, String s) { }</code>"
+- text: "<code>public static int method(int i) { return 3; }</code>"
+- text: "<code>public static void method(String s, int i) { }</code>"
+- text: "<code> public static void method1(int i) { }</code>"
 files:
 - name: src/Task.java
   visible: true

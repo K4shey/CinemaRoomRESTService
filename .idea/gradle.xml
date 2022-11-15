@@ -24,12 +24,28 @@
             <option value="$PROJECT_DIR$/Topics/Conditional statement/Check a number is positive" />
             <option value="$PROJECT_DIR$/Topics/Conditional statement/Interval" />
             <option value="$PROJECT_DIR$/Topics/Conditional statement/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Constructor/Account and its owner" />
+            <option value="$PROJECT_DIR$/Topics/Constructor/Theory" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Greatest common divisor" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Method signature" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/The sign of a number" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Defining classes/Correct fields" />
+            <option value="$PROJECT_DIR$/Topics/Defining classes/Inner boxes" />
+            <option value="$PROJECT_DIR$/Topics/Defining classes/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/Find the correct statement" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/Fix compile-time errors" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/Print the age" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/Select the statement" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/Theory" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Calculator with four methods" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Instance methods/Car" />
+            <option value="$PROJECT_DIR$/Topics/Instance methods/Counter" />
+            <option value="$PROJECT_DIR$/Topics/Instance methods/In a box" />
+            <option value="$PROJECT_DIR$/Topics/Instance methods/Invoke instance method" />
+            <option value="$PROJECT_DIR$/Topics/Instance methods/Simulating a clock" />
+            <option value="$PROJECT_DIR$/Topics/Instance methods/Theory" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Arithmetic expression" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Difference of times" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/How many nuts each squirrel will get" />
@@ -42,6 +58,10 @@
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Rotate a rectangle array" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Symmetric matrix" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Theory" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Avoid NPE" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Theory" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Unknown input" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Where NPE may occur" />
             <option value="$PROJECT_DIR$/Topics/Overloading/Conditionals for overloading" />
             <option value="$PROJECT_DIR$/Topics/Overloading/Overloading a method" />
             <option value="$PROJECT_DIR$/Topics/Overloading/Print" />
@@ -57,6 +77,8 @@
             <option value="$PROJECT_DIR$/Topics/The for-loop/Statements" />
             <option value="$PROJECT_DIR$/Topics/The for-loop/The sum of integers from a to b" />
             <option value="$PROJECT_DIR$/Topics/The for-loop/Theory" />
+            <option value="$PROJECT_DIR$/Topics/What is an exception/Avoid division by zero" />
+            <option value="$PROJECT_DIR$/Topics/What is an exception/Theory" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
