@@ -15,7 +15,7 @@ class Publication {
     public String getType() {
         return "Publication";
     }
-`
+
     public String getDetails() {
         return "";
     }
