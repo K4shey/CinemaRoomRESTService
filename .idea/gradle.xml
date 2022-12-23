@@ -66,6 +66,10 @@
             <option value="$PROJECT_DIR$/Topics/Hiding and overriding/Publications" />
             <option value="$PROJECT_DIR$/Topics/Hiding and overriding/Theory" />
             <option value="$PROJECT_DIR$/Topics/Hiding and overriding/Which methods cannot be overridden" />
+            <option value="$PROJECT_DIR$/Topics/Hierarchy of exceptions/Base class" />
+            <option value="$PROJECT_DIR$/Topics/Hierarchy of exceptions/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Hierarchy of exceptions/Unchecked exceptions" />
+            <option value="$PROJECT_DIR$/Topics/Hierarchy of exceptions/UncheckedException" />
             <option value="$PROJECT_DIR$/Topics/Inner classes/A bow and a cat" />
             <option value="$PROJECT_DIR$/Topics/Inner classes/Christmas tree" />
             <option value="$PROJECT_DIR$/Topics/Inner classes/New Inner class" />

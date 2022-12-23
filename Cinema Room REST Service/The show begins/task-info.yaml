@@ -119,7 +119,7 @@ files:
 - name: src/cinema/Seat.java
   visible: true
   learner_created: true
-feedback_link: https://hyperskill.org/projects/189/stages/945/implement#comment
+feedback_link: https://hyperskill.org/learn/step/13375#comment
 status: Solved
 feedback:
   message: Congratulations!
