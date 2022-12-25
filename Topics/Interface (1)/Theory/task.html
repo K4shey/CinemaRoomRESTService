@@ -1,5 +1,5 @@
 <h2>Interface</h2>
-<html><body><p>In Java, an <strong>interface</strong> is a reference type which is similar to a class but has a number of distinctive features that make it different. An interface contains declarations of methods and serves as literally an interface between a class inheriting that interface and the other classes.</p>
+<p>In Java, an <strong>interface</strong> is a reference type which is similar to a class but has a number of distinctive features that make it different. An interface contains declarations of methods and serves as literally an interface between a class inheriting that interface and the other classes.</p>
 <h5 id="why-interface" style="text-align: center;">Why interface</h5>
 <p>The general idea of OOP and one of its principles is abstraction. It means that real-world objects can be represented by their abstract models. Designing models is about focusing on the essential features of the objects and discarding the others. To understand what it means, let's take a look at a pencil. A pencil is an object that we can use to draw. Other properties such as material or length may be important to us sometimes, but do not define the idea of a pencil.</p>
 <p>Imagine we need to create a graphical editor program. One of the basic functions of the program is drawing. Before drawing, the program asks a user to select a drawing tool. It can be a pen, pencil, brush, highlighter, marker, spray, and others. Each tool from a set has its own specific features: a pencil and a spray leave different marks, and that matters. But there is also an essential feature that unites them: the ability to draw. </p>
@@ -14,7 +14,7 @@
     public void draw(Curve curve) {...}
 }</code></pre>
 <p>Each of them has the method <code class="language-java">draw</code>, although uses it in its own fashion. The ability to draw is a common feature for all of them. Let's call this feature <code class="language-java">DrawingTool</code>. Then we can say that if a class has the <code class="language-java">DrawingTool</code> feature, then it should be able to draw, that means the class should have the <code class="language-java">void draw(Curve curve) {...}</code> method.</p>
-<p>Java allows declaring this feature by introducing interfaces. This is how our interface looks like:</p>
+<p>Java allows declaring this feature by introducing interfaces. This is what our interface looks like:</p>
 <pre><code class="language-java">interface DrawingTool {
     void draw(Curve curve);
 }</code></pre>
@@ -53,11 +53,11 @@ DrawingTool brush = new Brush();</code></pre>
 <p> </p>
 <p>If the modifiers are not specified once the method is declared, its parameters will be <strong>public abstract</strong> by default.</p>
 <p> </p>
-<p>The keyword <strong><code class="language-java">abstract</code></strong> before a method means that the method does not have a body, it just declares a signature. <strong><code class="language-java">default</code></strong> methods will be discussed further in detail.</p>
+<p>The keyword <strong><code class="language-java">abstract</code></strong> before a method means that the method does not have a body, it just declares a signature. <strong><code class="language-java">default</code></strong> methods will be discussed in detail in another topic.</p>
 <p>An interface can't contain constructors, non-public abstract methods, or any fields other than <code class="language-java">public static final</code> (<strong>constants</strong>). Let's declare an interface containing all possible members:</p>
 <pre><code class="language-java">interface Interface {
         
-    int INT_CONSTANT = 0; // it's a constant, the same as public static final int INT_FIELD = 0
+    int INT_CONSTANT = 0; // it's a constant, the same as public static final int INT_CONSTANT = 0
         
     void instanceMethod1();
         
@@ -100,7 +100,7 @@ DrawingTool brush = new Brush();</code></pre>
 instance.instanceMethod1(); // it prints "Class: instance method1"
 instance.instanceMethod2(); // it prints "Class: instance method2"
 instance.defaultMethod();   // it prints "Interface: default method. It can be overridden"</code></pre>
-<p>Note that the <code class="language-java">instance</code> variable has <code class="language-java">Interface</code> type, although it is ok to use <code class="language-java">Class</code> for denoting type.</p>
+<p>Note that the <code class="language-java">instance</code> variable has the <code class="language-java">Interface</code> type, although it is ok to use <code class="language-java">Class</code> to denote its type.</p>
 <pre><code class="language-java">Class instance = new Class();</code></pre>
 <h5 id="implementing-and-extending-multiple-interfaces" style="text-align: center;">Implementing and extending multiple interfaces</h5>
 <p>One of the important interface features is <strong>multiple inheritance</strong>.</p>
@@ -130,7 +130,7 @@ class D extends A implements B, C { }</code></pre>
 // ...
 }</code></pre>
 <h5 id="marker-interfaces" style="text-align: center;">Marker interfaces</h5>
-<p>In some situations, an interface can have no members at all. Such interfaces are called <strong>marker</strong> or <strong>tagged interfaces</strong>. For example, a well-known interface <code class="language-java">Serializable</code> is a marker interface:</p>
+<p>In some situations, an interface has no members at all. Such interfaces are called <strong>marker</strong> or <strong>tagged interfaces</strong>. For example, a well-known interface <code class="language-java">Serializable</code> is a marker interface:</p>
 <pre><code class="language-java">public interface Serializable{ 
 }
 </code></pre>
@@ -146,4 +146,4 @@ class D extends A implements B, C { }</code></pre>
 <pre><code class="language-java">Car.convertToMilesPerHour(4.5);</code></pre>
 <p>The main purpose of interface static methods is defining utility functionality that is common for all classes implementing the interface. They help to avoid code duplication and creating additional utility classes.</p>
 <h5 id="conclusion" style="text-align: center;">Conclusion</h5>
-<p>An interface is a special kind of class that cannot be instantiated. The main idea of an interface is declaring functionality. Interfaces help to abstract from specific classes and emphasize the functionality. It makes software design more reusable and clean. It is a good practice to apply the so-called interface-oriented design, which means that you should rely on interfaces instead of concrete implementations. To implement an interface, the keyword <code class="language-java">implements</code> is used. As opposed to a class, an interface can extend several interfaces. A class can implement multiple interfaces.</p></body></html>
+<p>An interface is a special kind of class that cannot be instantiated. The main idea of an interface is declaring functionality. Interfaces help to abstract from specific classes and emphasize the functionality. It makes software design more reusable and clean. It is a good practice to apply the so-called interface-oriented design, which means that you should rely on interfaces instead of concrete implementations. To implement an interface, the keyword <code class="language-java">implements</code> is used. As opposed to a class, an interface can extend several interfaces. A class can implement multiple interfaces.</p>

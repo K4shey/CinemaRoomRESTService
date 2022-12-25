@@ -1,5 +1,5 @@
 <h2>Hiding and overriding</h2>
-<html><body><h5 id="overriding-instance-methods" style="text-align: center;">Overriding instance methods</h5>
+<h5 id="overriding-instance-methods" style="text-align: center;">Overriding instance methods</h5>
 <p>Java provides an opportunity to declare a method in a subclass with the same name as a method in the superclass. This is known as <strong>method overriding</strong>. The benefit of overriding is that a subclass can give its own specific implementation of a superclass method.</p>
 <p><strong>Overriding methods</strong> in subclasses allows a class to inherit from a superclass whose behavior is <strong>"close enough" </strong>and then to change this behavior as the subclass needs.</p>
 <p>Instance methods can be overridden if they are inherited by the subclass. The overriding method must have the same name, parameters (number and type of parameters), and the return type (or a subclass of the type) as the overridden method.</p>
@@ -37,7 +37,7 @@ System.out.println(cat.sayHello()); // it prints "meow"
 Human human = new Human();
 System.out.println(human.sayHello()); // it prints "hello"</code></pre>
 <p>As you can see, each subclass has its own implementation of the method <code class="language-java">sayHello</code>.</p>
-<p></p><div class="alert alert-primary">You can invoke the base class method in the overridden method using the keyword <code class="language-java">super</code>.</div><p></p>
+<p></p><div class="alert alert-primary">You can invoke the base class method in the overridden method using the keyword <code class="language-java">super</code>.</div>
 <h5 id="rules-for-overriding-methods" style="text-align: center;">Rules for overriding methods</h5>
 <p>There are several rules for methods of subclasses which should override methods of a superclass:</p>
 <ul>
@@ -87,4 +87,39 @@ clazz.invokeInstanceMethod("s"); // SubClass: overloaded invokeInstanceMethod(St
 <p>Remember, overriding and overloading are different mechanisms but you can mix them together in one class hierarchy.</p>
 <h5 id="hiding-static-methods" style="text-align: center;">Hiding static methods</h5>
 <p>Static methods cannot be overridden. If a subclass has a static method with the same signature (name and parameters) as a static method in the superclass then the method in the subclass hides the one in the superclass. It's completely different from method overriding.</p>
-<p>You will get a compile-time error if a subclass has a static method with the same signature as an instance method in the superclass or vice versa. But if the methods have the same name but different parameters there should be no problems.</p></body></html>
+<pre><code class="language-java">class Main {
+    public static void main(String[] args) {
+        SuperClass.staticMethod();          // super
+        new SuperClass().staticMethod();    // super
+        SubClass.staticMethod();            // sub
+        new SubClass().staticMethod();      // sub
+
+        SuperClass ss = new SubClass();
+        ss.staticMethod();                  // super, because static method belongs to a class, not to an instance
+    }
+}
+
+class SuperClass {
+    public static void staticMethod() {
+        System.out.println("super");
+    }
+}
+
+class SubClass extends SuperClass {
+    public static void staticMethod() {
+        System.out.println("sub");
+    }
+}</code></pre>
+<p>You will get a compile-time error if a subclass has a static method with the same signature as an instance method in the superclass or vice versa. But if the methods have the same name but different parameters there should be no problems.</p>
+<pre><code class="language-java">class SuperClass {
+    public void instanceMethod() {
+        System.out.println("super");
+    }
+}
+
+class SubClass extends SuperClass {
+    // Static method instanceMethod() in SubClass cannot override instance method instanceMethod() in SuperClass
+    public static void instanceMethod() {
+        System.out.println("sub");
+    }
+}</code></pre>

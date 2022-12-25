@@ -1,5 +1,5 @@
 <h2>Instance methods</h2>
-<html><body><p>As you know, a class is one of the fundamental concepts in Java. You develop the logic of a program by creating fields and methods inside classes. Fields describe an object's properties and methods describe what an object does. In this topic, we will go on to discuss the nature of methods in Java. All methods can be divided into two groups: <strong>instance</strong><em> </em>and<em> </em><strong>static</strong>. We were mostly focused on the static ones previously, so now let's learn more about instance methods to better understand the differences between the two. </p>
+<p>As you know, a class is one of the fundamental concepts in Java. You develop the logic of a program by creating fields and methods inside classes. Fields describe an object's properties and methods describe what an object does. In this topic, we will go on to discuss the nature of methods in Java. All methods can be divided into two groups: <strong>instance</strong><em> </em>and<em> </em><strong>static</strong>. We were mostly focused on the static ones previously, so now let's learn more about instance methods to better understand the differences between the two. </p>
 <h5 id="whats-the-difference">What's the difference?</h5>
 <p>Let's look at the code below. Here we have a class named <code class="language-java">Human</code> with two fields and two methods. </p>
 <pre><code class="language-java">class Human {
@@ -71,7 +71,7 @@
     alice.name = "Alice";
     alice.work(); // "Alice loves working!"
 
-    peter.workTogetherWith(alice); // "Peter loves working with Alice"
+    peter.workTogetherWith(alice); // "Peter loves working with Alice!"
 }</code></pre>
 <p>Look, now we have different outputs for the method <code class="language-java">work</code> because two different objects have different values for <code class="language-java">name</code>. First, we created <code class="language-java">peter</code> and gave him a name, then by invoking <code class="language-java">peter.work()</code> we actually saw his name in the output. We did the same with <code class="language-java">alice</code> and also saw her name in the output.</p>
 <p>Look at <code class="language-java">workTogetherWith</code> method. The keyword <code class="language-java">this</code> allows us to access a field of the particular object and distinguish it from the same field of another object.</p>
@@ -86,4 +86,4 @@
 <li>instance method can only be invoked through an instance of a class, so that you have to create an object first;</li>
 <li>instance methods can access the fields of the class with <code class="language-java">this</code> keyword.</li>
 </ul>
-<p>Instance methods allow programmers to manipulate particular objects of a class. And because of it, they give us more functionality and are used more often than static methods!</p></body></html>
+<p>Instance methods allow programmers to manipulate particular objects of a class. And because of it, they give us more functionality and are used more often than static methods!</p>

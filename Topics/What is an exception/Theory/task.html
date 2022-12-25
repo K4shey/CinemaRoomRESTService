@@ -20,7 +20,7 @@ public class ArithmeticExceptionDemo {
 <p>If the user passes <code class="language-java">9</code> and <code class="language-java">3</code> as the input values, the program outputs <code class="language-java">3</code> as well as the <code class="language-java">"finished"</code> string. But if the second number is <code class="language-java">0</code>, the program throws an exception because of the division by zero.</p>
 <pre><code class="language-no-highlight">Exception in thread "main" java.lang.ArithmeticException: / by zero
   at ArithmeticExceptionDemo.main(ArithmeticExceptionDemo.java:11)</code></pre>
-<p>As you can see, the program fails with the <code class="language-java">ArithmeticException</code>, and the <code class="language-java">"finished"</code> string is not printed at all. <span style="color: #000000;">All the code </span><span style="color: #000000;"><strong>before</strong></span><span style="color: #000000;"> </span><span style="color: #000000;">the exception is executed properly, and everything </span><span style="color: #000000;"><strong>after </strong></span><span style="color: #000000;">is not. </span></p>
+<p>As you can see, the program fails with an <code class="language-java">ArithmeticException</code>, and the <code class="language-java">"finished"</code> string is not printed at all. <span style="color: #000000;">All the code </span><span style="color: #000000;"><strong>before</strong></span><span style="color: #000000;"> </span><span style="color: #000000;">the exception is executed properly, and everything </span><span style="color: #000000;"><strong>after </strong></span><span style="color: #000000;">is not. </span></p>
 <p>The displayed message shows the cause of the exception (<code class="language-java">"/ by zero"</code>), the file and the line number where it has occurred (<code class="language-java">ArithmeticExceptionDemo.java:11</code>). The provided information is useful for developers, but it is not very meaningful for the end-users of the program.</p>
 <p>To avoid the exception, we can check the value before the division, and, if the value is zero, print a message. Here is another version of the program. If the second number is zero, the program will print the "<strong>Division by zero!</strong>" string.</p>
 <pre><code class="language-java">import java.util.Scanner;
@@ -46,7 +46,7 @@ public class ArithmeticExceptionDemo {
 <p>The program still works in the same way and the result is:</p>
 <pre><code class="language-java">2
 finished</code></pre>
-<p>Now if we try to input zero as a divider:</p>
+<p>Now, if we try to input zero as a divider:</p>
 <pre><code class="language-java">3 0</code></pre>
 <p>The result is:</p>
 <pre><code class="language-java">Division by zero!
@@ -80,7 +80,7 @@ public class NumberFormatExceptionDemo {
 <li>the line 9.</li>
 </ul>
 <p>All the previous lines of the message show the positions inside the <code class="language-java">parseInt</code> method that is part of the standard library.</p>
-<p>To avoid this exception, it is possible to check the input string by using a regular expression. In case the input is not correct we can output a warning message. The following program does this:</p>
+<p>To avoid this exception, it is possible to check the input string by using a regular expression. In case the input is not correct, we can output a warning message. The following program does this:</p>
 <pre><code class="language-java">import java.util.Scanner;
 
 public class NumberFormatExceptionDemo {
@@ -102,7 +102,7 @@ public class NumberFormatExceptionDemo {
 <p> </p>
 <p></p><div class="alert alert-primary">Don't worry if you don't know regular expressions yet. Just remember this trick.</div>
 <p> </p>
-<p><span style="color: #000000;">If you have trouble understanding what the exception is, you can always copy-paste its name and google it. Moreover, you're strongly encouraged to do it, as 99% of troubles that learners encounter have already been solved on professional forums.</span></p>
+<p><span style="color: #000000;">If you have trouble understanding what an exception is, you can always copy-paste its name and google it. Moreover, you're strongly encouraged to do it, as 99% of troubles that learners encounter have already been solved on professional forums.</span></p>
 <h5 id="conclusion" style="text-align: center;">Conclusion</h5>
 <ul>
 <li>Exceptions do not prevent a program from being compiled and run, <span style="color: #000000;">but the program crashes as soon as the line with an exception is being executed.</span></li>
