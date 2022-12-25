@@ -37,3 +37,4 @@ content:
 - Exception handling
 - Lambda expressions
 - The Set interface
+- Threads as objects
