@@ -172,6 +172,12 @@
             <option value="$PROJECT_DIR$/Topics/The for-loop/Theory" />
             <option value="$PROJECT_DIR$/Topics/The keyword super/Bank account" />
             <option value="$PROJECT_DIR$/Topics/The keyword super/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Thread management/Calculate the number of distinct characters" />
+            <option value="$PROJECT_DIR$/Topics/Thread management/Summing with threads" />
+            <option value="$PROJECT_DIR$/Topics/Thread management/The order of lines" />
+            <option value="$PROJECT_DIR$/Topics/Thread management/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Thread management/VeganPizza" />
+            <option value="$PROJECT_DIR$/Topics/Thread management/Waiting for a thread" />
             <option value="$PROJECT_DIR$/Topics/Threads as objects/Counting threads" />
             <option value="$PROJECT_DIR$/Topics/Threads as objects/Getting current thread info" />
             <option value="$PROJECT_DIR$/Topics/Threads as objects/Is thread daemon" />
