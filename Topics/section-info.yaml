@@ -38,3 +38,4 @@ content:
 - Lambda expressions
 - The Set interface
 - Threads as objects
+- Custom threads
