@@ -178,6 +178,12 @@
             <option value="$PROJECT_DIR$/Topics/Thread management/Theory" />
             <option value="$PROJECT_DIR$/Topics/Thread management/VeganPizza" />
             <option value="$PROJECT_DIR$/Topics/Thread management/Waiting for a thread" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Countdown counter" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Methods" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Possible outputs" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Thread-safe account" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/What is wrong" />
             <option value="$PROJECT_DIR$/Topics/Threads as objects/Counting threads" />
             <option value="$PROJECT_DIR$/Topics/Threads as objects/Getting current thread info" />
             <option value="$PROJECT_DIR$/Topics/Threads as objects/Is thread daemon" />
