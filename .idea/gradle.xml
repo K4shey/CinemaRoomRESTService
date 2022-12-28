@@ -161,6 +161,12 @@
             <option value="$PROJECT_DIR$/Topics/The List interface/Filtering the list" />
             <option value="$PROJECT_DIR$/Topics/The List interface/Results of operations" />
             <option value="$PROJECT_DIR$/Topics/The List interface/Theory" />
+            <option value="$PROJECT_DIR$/Topics/The Map interface/Basics of Maps" />
+            <option value="$PROJECT_DIR$/Topics/The Map interface/Determine values of variables" />
+            <option value="$PROJECT_DIR$/Topics/The Map interface/Displaying pairs" />
+            <option value="$PROJECT_DIR$/Topics/The Map interface/Existing implementations" />
+            <option value="$PROJECT_DIR$/Topics/The Map interface/Modifying a map" />
+            <option value="$PROJECT_DIR$/Topics/The Map interface/Theory" />
             <option value="$PROJECT_DIR$/Topics/The Set interface/A subset of sorted set" />
             <option value="$PROJECT_DIR$/Topics/The Set interface/Implementations" />
             <option value="$PROJECT_DIR$/Topics/The Set interface/Output elements" />
