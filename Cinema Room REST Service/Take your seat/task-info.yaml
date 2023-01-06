@@ -312,6 +312,21 @@ files:
         }
     }
   learner_created: true
+- name: src/cinema/exception/GlobalExceptionHandler.java
+  visible: true
+  learner_created: true
+- name: src/cinema/exception/Response.java
+  visible: true
+  learner_created: true
+- name: src/cinema/exception/TicketAlreadyPurchasedException.java
+  visible: true
+  learner_created: true
+- name: src/cinema/exception/RowOrColumnOutOfBoundException.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/13376#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 06 Jan 2023 09:57:15 UTC"
 record: 2
